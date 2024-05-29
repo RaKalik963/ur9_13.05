@@ -8,8 +8,7 @@ int main()
     const int SIZE2 = 5;
 
     int array1[SIZE1] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-    int array2[SIZE2];
-    int array3[SIZE2];
+    int array2[SIZE2], array3[SIZE2];
 
     for (int i = 0; i < SIZE2; ++i) {
         array2[i] = array1[i];
