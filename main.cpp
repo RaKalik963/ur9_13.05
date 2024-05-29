@@ -6,9 +6,7 @@ int main()
 {
     srand(time(0));
     const int size = 10;
-    int arr1[size];
-    int arr2[size];
-    int result[size];
+    int arr1[size], arr2[size], result[size];
 
     for (size_t i = 0; i < size; i++)
     {
